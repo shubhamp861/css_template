@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid green;
+            height: 32222px;
+        }
+        .box{
+            border: 2px dotted black;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+            display: inline-block;
+        }
+        #box3{
+            position: relative; 
+            /* move top or bottom from its original poistion */
+            top:34px;
+            left:15px;
+        }
+        #box4{
+            position: absolute;
+            /* move from its parent container or div */
+            top:34px;
+            left:15px;
+        }
+        #box2{
+            position: fixed;
+            /* fixed on dom  */
+            right: 2px; }
+        #box5{
+            position: sticky;
+            top: 3px;
+            
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1 default static</div>
+    <div class="box" id="box2">2 fixed</div>
+    <div class="box" id="box3">3 relative</div>
+    <div class="box" id="box4">4 absolute</div>
+    <div class="box" id="box5">5 sticky fixed</div>
+</div>
+</body>
+</html>

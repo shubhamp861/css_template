@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(http://127.0.0.1:5500/template/img/bck.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 10px;
+}
+.mid{
+ display: block;
+ width: 33%;
+ margin: 12px auto;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 10px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li,a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.left img{
+    width: 67px;
+}
+.left div{
+    text-align: center;
+    color: aliceblue;
+}
+.btn{
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+     background-color: transparent;
+    padding: 7px;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    border: 2px solid rgb(6, 6, 8);
+    border-radius: 12px;
+    margin-top: 64px;
+    padding: 29px;
+    margin-left: 46px;
+    width: 33%;
+    color: white;
+    font-size: 12px;
+}
+.container h1{
+    text-align: center;
+}
+.container button:hover{
+    background-color: gray;
+}
+.container button{
+    display: block;
+    width: 132px;
+    margin: auto;
+    padding: 9px;
+    border-radius: 12px;
+    background-color: transparent;
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 16px;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 12px;
+}

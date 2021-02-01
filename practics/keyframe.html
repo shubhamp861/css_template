@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: black;
+        }
+
+        .box {
+            background-color: grey;
+            height: 250px;
+            width: 220px;
+            position: absolute;
+            animation-name: lol;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes lol {
+            from {
+                width: 200px;
+                height: 200px;
+                background-color: black;
+                margin-top: 0px;
+                opacity: 0;
+            }
+
+            to {
+                width: 400px;
+                height: 400px;
+                background-color: gray;
+                margin-top: 400px;
+                opacity: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>

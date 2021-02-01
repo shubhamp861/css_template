@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 70px;
+            height: 70px;
+            border: 2px splid black;
+            margin: 3px;
+        }
+        #box1{
+            visibility: hidden;
+            background-color: red;
+        }
+        #box2{
+            display: none;
+            background-color: blue;
+        }
+        #box3{
+            background-color: green;
+            position: relative;
+            top: 59px;
+            z-index: 62;
+        }
+        #box4{
+            background-color: purple;
+            position: relative;
+            top: 19px;
+            z-index: 22;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>Red element still there [[ visibility: hidden;]]<hr/>
+    <div class="box" id="box2"></div>blue element hidden [[[display: none;]]]
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+
+    Z-index 
+</body>
+</html>

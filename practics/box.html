@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           
+            color: white;
+
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 52px;
+            align-items: center;
+           color:black;
+            height: 246px;
+   
+        }
+        ul{display: flex;}
+        li{
+          
+            list-style: none;
+            padding: 34px 23px;
+            margin: 5px;
+        }
+        section::before{
+            content:"";
+            background: url("https://source.unsplash.com/collection/190727/1600x900") no-repeat center center/cover;
+            position: absolute; 
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            top: 0px;
+            left: 0px;
+            opacity: 0.8;
+            right: 0px;
+      }
+      .box{
+
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="item">Home</li>
+                <li class="item">Home</li>
+                <li class="item">Home</li>
+                <li class="item">Home</li>
+            </ul>
+        </nav>
+        <section>
+            <h3>Welcome to hell....</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ex inventore impedit libero vero, iste debitis ratione ipsa, beatae reprehenderit ad voluptatum odit reiciendis ea possimus explicabo blanditiis quae quo.</p>
+            <hr/>
+        </section><ul>
+            <li class="box" id="item1">Box</li>
+            <li class="box" id="item2">Box</li>
+            <li class="box" id="item3">Box</li>
+            <li class="box" id="item4">Box</li>
+            <li class="box" id="item5">Box</li>
+            <li class="box" id="item6">Box</li>
+            <li class="box" id="item7">Box</li>
+            <li class="box" id="item8">Box</li>
+            <li class="box" id="item9">Box</li>
+        </ul>
+       
+       </header>
+</body>
+</html>
